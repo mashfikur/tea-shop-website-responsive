@@ -341,19 +341,23 @@
 
     <!--  -->
     <footer
-      class="bg-gradient-to-r from-[#ff00001a] to-[#ff89381a] md:px-[14.45rem] md:py-32"
+      class="bg-gradient-to-r from-[#ff00001a] to-[#ff89381a] md:px-20 lg:px-[11.45rem] md:py-32 p-4 space-y-6"
     >
       <!-- footer-top -->
-      <div class="flex items-center justify-between md:mb-24">
+      <div
+        class="flex flex-col gap-4 lg:flex-row items-center justify-between md:mb-24 mt-4"
+      >
         <img src="images/bg-cup-logo.png" alt="" />
-        <div class="flex items-center gap-9">
+        <div class="flex items-center gap-3 lg:gap-9">
           <p>Ready to get started?</p>
           <button class="btn btn-warning">Get Started</button>
         </div>
       </div>
 
       <!-- footer bottom -->
-      <div class="flex justify-between">
+      <div
+        class="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row justify-between gap-6"
+      >
         <!-- first-row -->
         <div>
           <ul class="space-y-5">
@@ -413,8 +417,8 @@
         </div>
       </div>
 
-      <div class="text-center mt-12">
-        <p class="font-medium text-[#494949]">
+      <div class="text-center">
+        <p class="font-medium mt-14 text-[#494949]">
           © 2027 UIDesign.to - All rights reserved.
         </p>
       </div>
