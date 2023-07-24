@@ -94,9 +94,9 @@
     </header>
 
     <!-- main section -->
-    <main class="container mx-auto mt-32 p-4">
+    <main class="md:container md:mx-auto mt-32">
       <!-- featured section -->
-      <section class="text-center">
+      <section class="text-center p-4">
         <h2 class="text-4xl font-extrabold mb-5">Our Featured Products</h2>
         <p class="font-medium mx-auto max-w-[56rem]">
           There are many variations of passages of Lorem Ipsum available, but
@@ -143,7 +143,7 @@
 
       <!-- fresh tea section -->
       <section
-        class="my-24 flex gap-6 flex-col md:flex-row items-center justify-center lg:gap-20"
+        class="my-24 flex gap-6 flex-col md:flex-row items-center justify-center p-4 lg:gap-20"
       >
         <!-- fresh tea grid -->
         <div>
@@ -200,26 +200,32 @@
 
       <!-- super client section -->
       <section
-        class="md:my-32 flex flex-col lg:flex-row items-center bg-gradient-to-r from-[#FF8938] to-[#ff00008c] md:px-16 md:py-20 rounded-xl"
+        class="md:my-32 p-8 gap-12 flex flex-col lg:gap-0 lg:flex-row items-center bg-gradient-to-r from-[#FF8938] to-[#F00] md:px-16 md:py-20 rounded-xl"
       >
-        <div class="text-white space-y-6">
-          <h1 class="font-extrabold text-4xl">Meet Our Super Clients</h1>
+        <div class="text-white space-y-6 lg:pr-20">
+          <h1 class="font-extrabold text-4xl">
+            Meet Our Super <br />
+            Clients
+          </h1>
           <p>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <button class="btn btn-info px-7 py-3 color-btn font-bold rounded-md">
+          <button class="btn btn-warning px-7 py-3 font-bold rounded-md">
             Show All
           </button>
         </div>
 
-        <!-- review card section -->
-        <div>
-          <div class="bg-white p-12 rounded-lg relative">
+        <!-- review card container -->
+        <div class="relative space-y-12">
+          <!-- previous review -->
+          <div
+            class="bg-white p-12 rounded-lg relative opacity-40 z-10 lg:w-[28rem]"
+          >
             <img
-              class="absolute -top-6 -left-6 border-4 rounded-full border-white"
+              class="absolute -top-6 -left-6 border-4 rounded-full border-white bg-white"
               src="images/client.png"
               alt=""
             />
@@ -229,6 +235,47 @@
             </p>
             <h3 class="font-bold">Ilham Yuda</h3>
             <h3 class="font-medium">Businessman</h3>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="" />
+            </div>
+          </div>
+          <!-- current review -->
+          <div
+            class="bg-white p-12 rounded-lg top-24 lg:-left-12 absolute z-20 lg:w-[28rem]"
+          >
+            <img
+              class="absolute -top-6 -left-6 border-4 rounded-full border-white bg-white"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="font-bold">Ilham Yuda</h3>
+            <h3 class="font-medium">Businessman</h3>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="" />
+            </div>
+          </div>
+          <!-- next review -->
+          <div
+            class="bg-white p-12 rounded-lg relative opacity-40 z-10 lg:w-[28rem]"
+          >
+            <img
+              class="absolute -top-6 -left-6 border-4 rounded-full border-white bg-white"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="font-bold">Ilham Yuda</h3>
+            <h3 class="font-medium">Businessman</h3>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="" />
+            </div>
           </div>
         </div>
       </section>
